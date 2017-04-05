@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:text="Button"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Go" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Client"
+        android:layout_weight="0.17" />
+
+    <EditText
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <fragment
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:name="android.app.DialogFragment"
+        android:id="@+id/fragment" />
+</LinearLayout>
